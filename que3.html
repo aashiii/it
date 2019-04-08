@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>que3</title>
+<style>
+div {	border:2px groove;
+	padding:20px;
+	color:red;
+}
+</style>
+</head>
+<body onload="document.body.style.background='yellow'" onkeydown="document.body.style.background='grey'"  >
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+<p id="demo"></p>
+<div onmouseover="this.style.border='dashed';this.style.color='green'" onmouseout="this.style.color='blue';this.style.border='solid'">HEllo</div>
+<br><br>
+<select id=2 onchange="document.getElementById('1').innerHTML='YOu arE '+this.value">
+<option value="awesome">awesome</option>
+<option value='cool'>Cool</option>
+<option value='Funny'>funny</option>
+</select>
+<p id=1 ></p>
+</body>
+</html>
+
