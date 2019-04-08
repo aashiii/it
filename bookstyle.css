@@ -1,0 +1,19 @@
+body { 
+	background-color: #d1d1e0; 
+	color :black ;
+}
+
+fieldset {
+  width: 700px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 5em;
+  padding-right:5em;
+  border: 10px groove (internal value);
+}
+legend {
+	margin-left: 350px;
+  	margin-right: 100px;
+}

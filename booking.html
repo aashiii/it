@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> Booking </title>
+<link rel="stylesheet" type="text/css" href="bookstyle.css">
+</head>
+<body>
+<div align="center">
+<form method="get" action="booked.html" autocomplete="on">
+<fieldset align="center"><legend> Book</legend>
+<p><label> Name: <input type="text"></p></label>
+<p><label> Date of birth <input type="date"></p></label>
+<p><label> Address<input type="address"></p></label>
+<p><label> Email Id<input type="email"></p></label>
+<p><label> Prefered Seat <input type ="text" placeholder="Select a Seat" list="seat"></p></label>
+<datalist id="seat">
+<option value ="Middle">
+<option value="Aisle">
+<option value="window">
+</datalist>
+<p><label>Prefered Bus <input type="text" placeholder="Select a Bus" list="bus"></p></label>
+<datalist id="bus">
+<option value="Garuda Maharaja">
+<option value="Garuda Sanchari">
+<option value="Super Deluxe">
+<option value="Minnal">
+<option value="SFP">
+<option value="FP">
+</datalist>
+
+<p><label>Journey Start Date<input type="date"></label>&emsp;&emsp;&emsp;&emsp; <label>Journey End Date<input type="date"></label></p>
+<p> <input type="submit" value="Book"></p>
+</fieldset></form></div>
+</body>
+</html>
+

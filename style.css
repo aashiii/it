@@ -1,0 +1,27 @@
+body {
+	background-color:white;
+}
+
+h1 {
+	color:blue;
+	font-family:sans-serif;
+}
+hr{position:relative;
+	top:20px; margin:10px;}
+
+.image {	position:relative;
+		top: 40px; left:400px;}
+.image1 { position:relative;
+	top:20px;left:110px;}
+.image3 { position:relative; top:20px; left:400px; 
+	margin:20px;}
+.id1 { 	background-color:LightSkyBlue;
+	color:black;
+	}
+.id2 { 	background-color:MediumTurquoise;
+	color:black;
+	}
+.id3 { 	background-color:PowderBlue ;
+	color:black;
+	}
+
